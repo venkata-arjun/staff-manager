@@ -78,7 +78,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2 className="heading">Employee Manager</h2>
+      <h2 className="heading">Staff Manager</h2>
 
       <form onSubmit={handleSubmit} className="form">
         {["name", "email", "phone", "city"].map((field) => (
