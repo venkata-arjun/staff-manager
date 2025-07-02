@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
 
-const API_URL = "https://your-backend-url.onrender.com/employees";
+const API_URL = "https://staff-manager-2z99.onrender.com";
 
 function App() {
   const [employees, setEmployees] = useState([]);
